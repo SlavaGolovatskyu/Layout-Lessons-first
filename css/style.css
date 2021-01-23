@@ -35,7 +35,7 @@ a:hover {
 }
 
 section {
-	padding-top: 113px	
+	padding-top: 7.5em;	
 }
 
 p {
@@ -49,15 +49,15 @@ ul, li {
 }
 
 .container {
-	width: 1170px;
+	width: 85%;
 	margin: 0 auto;
 }
 
 .header {
 	background: url('../img/header-bg.jpg') no-repeat center top / cover;
-	padding-top: 57px;
+	padding-top: 3.5em;
 	color: #fff;
-	padding-bottom: 622px
+	padding-bottom: 40em;
 }
 
 header a {
@@ -65,7 +65,7 @@ header a {
 }
 
 .logo {
-	margin-right: 69px;
+	margin-right: 3.5em;
 }
 
 .menu {
@@ -80,7 +80,7 @@ header a {
 }
 
 .menu li {
-	margin-right: 40px;
+	margin-right: 3.5em;
 }
 
 .tel {
@@ -97,7 +97,7 @@ header a {
 
 .offer {
 	text-transform: uppercase;
-	margin-top: 216px;
+	margin-top: 13.5em;
 	margin-right: 0 auto;
 }
 
@@ -107,20 +107,20 @@ header a {
 }
 
 .offer h1 {
-	font-size: 100px;
-	margin-bottom: 19px;
-	margin-top: -9px;
+	font-size: 6em;
+	margin-bottom: 0.2em;
+	margin-top: -10px;
 	letter-spacing: 0.02em
 }
 
 .btn {
 	display: block;
-	font-size: 17px;
+	font-size: 1em;
 	text-align: center;
 	letter-spacing: 0.1em;
-	padding: 17px 47px;
+	padding: 1em 3em;
 	border: 1px solid #fff;
-	width: 238px;
+	width: 14.8em;
 	transition: all 0.8s ease;
 }
 
@@ -131,11 +131,12 @@ header a {
 
 .title h1{
 	letter-spacing: 0.05em;
-	font-size: 50px;
+	font-size: 3.15em;
 }
 
 .description {
-	margin-top: 58px;
+	margin-top: 3.8em;
+	margin-right: 1em;
 	display: flex;
 	justify-content: space-between;
 }
@@ -147,12 +148,16 @@ header a {
 	line-height: 1.62em;
 }
 
+.description h3 {
+	letter-spacing: 0.1em;
+}
+
 .desc-left, .desc-right {
-	width: 567px;
+	width: 48%;
 }
 
 .gallery {
-	margin-top: 67px;
+	margin-top: 4.15em;
 	display: flex;
 	justify-content: space-between;
 }
@@ -163,19 +168,188 @@ header a {
 
 .gallery img:hover {
 	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .footer-text {
 	display: flex;
-	font-size: 15px;
+	font-size: 1em;
 	font-family: 'Open Sans', sans-serif;
-	padding: 80px 0
+	padding: 5em 0
 }
 
 .footer-text p {
-	margin-right: 67px;
+	margin-right: 4.7em;
 	justify-content: space-between;
 	text-decoration: none;
 	letter-spacing: 0.05em;
 }
+
+.image-src {
+	width: 23%;
+}
+
+.image-src2 {
+	width: 52%;
+}
+
+@media screen and (max-width: 360px)
+{
+	.offer {
+		word-wrap: break-word;
+		text-transform: uppercase;
+		margin-top: 13.5em;
+		margin-right: 0 auto;
+	}
+
+	.offer p {
+		font-size: 20px;
+		letter-spacing: 0.1em;
+	}
+
+	.offer h1 {
+		font-size: 3em;
+		margin-bottom: 0.2em;
+		margin-top: -10px;
+		letter-spacing: 0.02em
+	}
+
+	.logo {
+		margin-right: 1em;
+	}
+
+	.menu {
+		display: flex;
+		width: 100%;
+	}
+
+	.menu li a {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 14px;
+		letter-spacing: 0.1em;
+	}
+
+	.menu li {
+		margin-right: 0.3em;
+	}
+
+	.title h1{
+		letter-spacing: 0.05em;
+		font-size: 3.15em;
+	}
+
+	.description {
+		margin-top: 3.8em;
+		margin-right: 1em;
+		display: inline-block;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	.description p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		text-align: justify;
+		line-height: 1.62em;
+	}
+
+	.description h3 {
+		letter-spacing: 0.1em;
+	}
+
+	.gallery {
+		margin-top: 4.15em;
+		display: inline-block;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	.gallery img {
+		transition: all 0.9s ease;
+	}
+
+	.gallery img:hover {
+		box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+		transform: scale(1.1);
+	}
+	.desc-left, .desc-right {
+		width: 100%;
+	}
+
+	.image-src, .image-src2 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px)
+{
+	.logo {
+		margin-right: 2.5em;
+	}
+
+	.menu {
+		display: flex;
+		width: 100%;
+	}
+
+	.menu li a {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 14px;
+		letter-spacing: 0.1em;
+	}
+
+	.menu li {
+		margin-right: 0.5em;
+	}
+
+	.title h1{
+		letter-spacing: 0.05em;
+		font-size: 3.15em;
+	}
+
+	.description {
+		margin-top: 3.8em;
+		margin-right: 1em;
+		display: inline-block;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	.description p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		text-align: justify;
+		line-height: 1.62em;
+	}
+
+	.description h3 {
+		letter-spacing: 0.1em;
+	}
+
+	.gallery {
+		margin-top: 4.15em;
+		display: inline-block;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	.gallery img {
+		transition: all 0.9s ease;
+	}
+
+	.gallery img:hover {
+		box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+		transform: scale(1.1);
+	}
+	.desc-left, .desc-right {
+		width: 100%;
+	}
+
+	.image-src, .image-src2 {
+		width: 100%;
+	}
+}
+
+
