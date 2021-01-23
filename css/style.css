@@ -285,7 +285,7 @@ header a {
 @media screen and (max-width: 600px) and (min-width: 360px)
 {
 	.logo {
-		margin-right: 2.5em;
+		margin-right: 1em;
 	}
 
 	.menu {
