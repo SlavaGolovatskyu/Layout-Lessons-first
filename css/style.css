@@ -195,6 +195,13 @@ header a {
 
 @media screen and (max-width: 360px)
 {
+	.tel {
+		font-size: 13px;
+		text-decoration: none;
+		margin-left: auto;
+		letter-spacing: 0.1em;
+	}
+
 	.offer {
 		word-wrap: break-word;
 		text-transform: uppercase;
@@ -215,7 +222,7 @@ header a {
 	}
 
 	.logo {
-		margin-right: 1em;
+		margin-right: 0.6em;
 	}
 
 	.menu {
@@ -226,25 +233,25 @@ header a {
 	.menu li a {
 		text-transform: uppercase;
 		text-decoration: none;
-		font-size: 14px;
+		font-size: 11px;
 		letter-spacing: 0.1em;
 	}
 
 	.menu li {
-		margin-right: 0.3em;
+		margin-right: 0.2em;
 	}
 
 	.title h1{
 		letter-spacing: 0.05em;
 		font-size: 3.15em;
+		text-align: center;
+		align-items: center;
 	}
 
 	.description {
 		margin-top: 3.8em;
 		margin-right: 1em;
 		display: inline-block;
-		text-align: center;
-		vertical-align: center;
 	}
 
 	.description p {
