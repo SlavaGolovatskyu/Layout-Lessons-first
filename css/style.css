@@ -193,32 +193,74 @@ header a {
 	width: 52%;
 }
 
+@media screen and (min-width: 1600px)
+{
+	body {
+		font-size: 22px;
+	}
+
+	h3 {
+		font-size: 35px;
+	}
+
+	.footer-text {
+		font-size: 1.5em;
+	}
+
+	.title h1{
+		font-size: 4.15em;
+	}
+
+	.offer p {
+		font-size: 2em;
+	}
+
+	.offer h1 {
+		font-size: 8em;
+	}
+
+	.btn {
+		font-size: 1.8em;
+		border: 3px solid #fff;
+		width: 14.8em;
+	}
+
+	.description p {
+		font-size: 45px;
+	}
+
+	.description h3 {
+		font-size: 70px;
+		letter-spacing: 0.1em;
+	}
+
+	.menu li a {
+		font-size: 1.5em;
+	}
+
+	.tel {
+		font-size: 2em;
+	}
+}
+
 @media screen and (max-width: 360px)
 {
 	.tel {
 		font-size: 13px;
-		text-decoration: none;
-		margin-left: auto;
-		letter-spacing: 0.1em;
 	}
 
 	.offer {
 		word-wrap: break-word;
-		text-transform: uppercase;
 		margin-top: 13.5em;
-		margin-right: 0 auto;
 	}
 
 	.offer p {
 		font-size: 20px;
-		letter-spacing: 0.1em;
 	}
 
 	.offer h1 {
 		font-size: 3em;
 		margin-bottom: 0.2em;
-		margin-top: -10px;
-		letter-spacing: 0.02em
 	}
 
 	.logo {
@@ -231,8 +273,6 @@ header a {
 	}
 
 	.menu li a {
-		text-transform: uppercase;
-		text-decoration: none;
 		font-size: 11px;
 		letter-spacing: 0.1em;
 	}
@@ -244,8 +284,6 @@ header a {
 	.title h1{
 		letter-spacing: 0.05em;
 		font-size: 3.15em;
-		text-align: center;
-		align-items: center;
 	}
 
 	.description {
@@ -255,9 +293,6 @@ header a {
 	}
 
 	.description p {
-		font-family: 'Open Sans', sans-serif;
-		font-weight: 400;
-		text-align: justify;
 		line-height: 1.62em;
 	}
 
@@ -301,8 +336,6 @@ header a {
 	}
 
 	.menu li a {
-		text-transform: uppercase;
-		text-decoration: none;
 		font-size: 14px;
 		letter-spacing: 0.1em;
 	}
