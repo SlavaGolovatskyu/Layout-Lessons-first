@@ -193,7 +193,7 @@ header a {
 	width: 52%;
 }
 
-@media screen and (min-width: 1600px)
+@media screen and (min-width: 1500px)
 {
 	body {
 		font-size: 22px;
@@ -240,6 +240,10 @@ header a {
 
 	.tel {
 		font-size: 2em;
+	}
+
+	.logo {
+		width: 3%;
 	}
 }
 
