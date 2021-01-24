@@ -304,6 +304,10 @@ header a {
 		letter-spacing: 0.1em;
 	}
 
+	.desc-right {
+		margin-top: 3em;
+	}
+
 	.gallery {
 		margin-top: 4.15em;
 		display: inline-block;
@@ -311,20 +315,17 @@ header a {
 		vertical-align: center;
 	}
 
-	.gallery img {
-		transition: all 0.9s ease;
-	}
-
-	.gallery img:hover {
-		box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-		transform: scale(1.1);
-	}
 	.desc-left, .desc-right {
 		width: 100%;
 	}
 
 	.image-src, .image-src2 {
 		width: 100%;
+	}
+
+	.footer-text {
+		word-break: break-word;
+		font-size: 0.8em;
 	}
 }
 
@@ -335,7 +336,6 @@ header a {
 	}
 
 	.menu {
-		display: flex;
 		width: 100%;
 	}
 
@@ -361,10 +361,11 @@ header a {
 		vertical-align: center;
 	}
 
+	.desc-right {
+		margin-top: 3em;
+	}
+
 	.description p {
-		font-family: 'Open Sans', sans-serif;
-		font-weight: 400;
-		text-align: justify;
 		line-height: 1.62em;
 	}
 
@@ -379,14 +380,6 @@ header a {
 		vertical-align: center;
 	}
 
-	.gallery img {
-		transition: all 0.9s ease;
-	}
-
-	.gallery img:hover {
-		box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-		transform: scale(1.1);
-	}
 	.desc-left, .desc-right {
 		width: 100%;
 	}
